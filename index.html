@@ -1,210 +1,228 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANSORI GROUP</title>
 
-<html lang="id">  
-<head>  
-<meta charset="UTF-8">  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">  
-<title>ANSORI GROUP</title>  
+  <link rel="stylesheet" href="style.css">
 
-<style>  
-body {margin:0;font-family:Arial;background:#f5f5f5;}  
-  
-nav {  
-  background:#000;  
-  color:white;  
-  padding:15px;  
-  display:flex;  
-  justify-content:space-between;  
-}  
-nav a {color:white;margin:0 10px;text-decoration:none;}  
-  
-.hero {  
-  background: linear-gradient(to right,#ff512f,#dd2476);  
-  color:white;  
-  padding:60px 20px;  
-  text-align:center;  
-}  
-.hero h1 {font-size:40px;}  
-  
-.container {padding:20px;}  
-  
-.card {  
-  background:white;  
-  padding:20px;  
-  margin:20px 0;  
-  border-radius:15px;  
-  box-shadow:0 5px 15px rgba(0,0,0,0.15);  
-  text-align:center;  
-  transition:0.3s;  
-}  
-.card:hover {transform:scale(1.03);}  
-  
-.card img {  
-  width:100%;  
-  max-width:220px;  
-  border-radius:10px;  
-}  
-  
-.btn {  
-  display:inline-block;  
-  padding:12px 18px;  
-  background:#25D366;  
-  color:white;  
-  text-decoration:none;  
-  border-radius:8px;  
-  margin-top:10px;  
-  font-weight:bold;  
-}  
-  
-.info {  
-  background:white;  
-  padding:20px;  
-  margin:20px;  
-  border-radius:15px;  
-  box-shadow:0 5px 15px rgba(0,0,0,0.1);  
-}  
-  
-.banner {text-align:center;padding:20px;}  
-.banner img {width:100%;max-width:500px;border-radius:15px;}  
-  
-.order {  
-  background:#fff;  
-  margin:20px;  
-  padding:20px;  
-  border-radius:15px;  
-  box-shadow:0 5px 15px rgba(0,0,0,0.1);  
-}  
-  
-.wa-float {  
-  position:fixed;  
-  bottom:20px;  
-  right:20px;  
-  background:#25D366;  
-  color:white;  
-  padding:15px;  
-  border-radius:50%;  
-  font-size:20px;  
-  text-decoration:none;  
-}  
-  
-footer {  
-  background:#000;  
-  color:white;  
-  text-align:center;  
-  padding:20px;  
-}  
-</style>  
-</head>  
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<body>  
+  <!-- ICON -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
 
-<nav>  
-  <b>ANSORI GROUP</b>  
-  <div>  
-    <a href="#home">Home</a>  
-    <a href="#produk">Produk</a>  
-  </div>  
-</nav>  
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">ANSORI GROUP</div>
 
-<section id="home" class="hero">  
-  <h1>ANSORI GROUP</h1>  
-  <p>Camilan Premium Renyah & Bikin Nagih</p>  
-  <p>⭐⭐⭐⭐⭐ Sudah dipercaya banyak pelanggan</p>  
-  <a class="btn" href="https://wa.me/6285768495689?text=Halo%20saya%20mau%20pesan%20kripik%20daun%20ubi">Order Sekarang</a>  
-</section>  
+  <div class="search-box">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" id="searchInput" placeholder="Cari produk...">
+  </div>
 
-<div class="info">  
-  <h2>Kenapa Pilih ANSORI GROUP?</h2>    
-  <p>🌿 ANSORI GROUP menghadirkan kripik daun ubi berkualitas tinggi yang diolah secara higienis dan penuh perhatian.  
-  Setiap daun dipilih dengan teliti untuk menghasilkan tekstur yang renyah sempurna dan tidak alot.</p>    
+  <div class="nav-icons">
+    <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+</nav>
 
-  <p>😋 Dengan berbagai varian rasa kekinian seperti balado pedas, jagung manis, barbeque, hingga rumput laut,  
-  camilan ini cocok untuk menemani waktu santai, belajar, hingga berkumpul bersama keluarga.</p>    
 
-  <p>💯 Diproduksi fresh setiap hari tanpa bahan berbahaya, menjadikan produk kami aman dan terpercaya.</p>    
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <span class="promo">DISKON 20%</span>
+    <h1>Sweet Potato Chips Premium</h1>
+    <p>Sweet potato chips premium dengan tekstur super renyah, bumbu melimpah, dan diproduksi higienis agar kualitas tetap terjaga 🔥</p>
+    <button>Order Sekarang</button>
+  </div>
+</section>
 
-  <p>🔥 Sekali coba, dijamin bikin nagih!</p>  
-</div>  
 
-<section id="produk" class="container">  
-  <h2>Produk Kami</h2>    
+<!-- KATEGORI -->
+<section class="kategori-wrapper">
+  <div class="kategori active">🔥 Semua</div>
+  <div class="kategori">🌶 Pedas</div>
+  <div class="kategori">🌽 Jagung</div>
+  <div class="kategori">🌿 Rumput Laut</div>
+  <div class="kategori">⭐ Best Seller</div>
+  <div class="kategori">🍖 Barbeque</div>
+</section>
 
-  <div class="card">  
-    <img src="produk1.png">  
-    <h3>Rasa Balado 🔥</h3>  
-    <p>Pedas gurih kuat, cocok untuk pecinta rasa berani.</p>  
-    <p><b>Rp 5.000</b></p>  
-    <a class="btn" href="https://wa.me/6285768495689?text=Halo%20saya%20mau%20pesan%20rasa%20balado">Pesan Sekarang</a>  
-  </div>    
 
-  <div class="card">  
-    <img src="produk2.png">  
-    <h3>Rasa Jagung Manis 🌽</h3>  
-    <p>Manis gurih lembut, favorit semua kalangan.</p>  
-    <p><b>Rp 5.000</b></p>  
-    <a class="btn" href="https://wa.me/6285768495689?text=Halo%20saya%20mau%20pesan%20rasa%20jagung%20manis">Pesan Sekarang</a>  
-  </div>    
+<!-- PRODUK -->
+<section class="produk-section">
+  <h2>Produk Kami</h2>
 
-  <div class="card">  
-    <img src="produk3.png">  
-    <h3>Rasa Barbeque 🍖</h3>  
-    <p>Aroma smoky khas dengan rasa premium.</p>  
-    <p><b>Rp 5.000</b></p>  
-    <a class="btn" href="https://wa.me/6285768495689?text=Halo%20saya%20mau%20pesan%20rasa%20barbeque">Pesan Sekarang</a>  
-  </div>    
+  <div class="products" id="productList">
 
-  <div class="card">  
-    <img src="produk4.png">  
-    <h3>Rasa Rumput Laut 🌊</h3>  
-    <p>Gurih unik yang bikin ketagihan.</p>  
-    <p><b>Rp 5.000</b></p>  
-    <a class="btn" href="https://wa.me/6285768495689?text=Halo%20saya%20mau%20pesan%20rasa%20rumput%20laut">Pesan Sekarang</a>  
-  </div>  
-</section>  
+    <!-- PRODUK 1 -->
+    <div class="product-card">
+      <span class="badge">BEST SELLER</span>
 
-<section class="banner">  
-  <h2>Testimoni Pelanggan</h2>  
-  <img src="testimoni.png">  
-</section>  
+      <img src="images/balado.png" alt="Balado">
 
-<section class="order">  
-  <h2>Cara Pemesanan</h2>  
-  <p>  
-  1. Pilih produk yang kamu inginkan<br>  
-  2. Klik tombol <b>Pesan Sekarang</b><br>  
-  3. Akan diarahkan ke WhatsApp<br>  
-  4. Kirim pesan & lakukan pemesanan<br>  
-  5. Pesanan diproses & dikirim  
-  </p>  
-</section>  
+      <h3>PEDAS BALADO 🔥</h3>
 
-<section class="info">  
-  <h2>Tentang Produk Kami</h2>    
+      <div class="rating">
+        ⭐ 4.9 | 200+ terjual
+      </div>
 
-  <p>🌱 Kripik daun ubi ANSORI GROUP adalah inovasi camilan tradisional dengan sentuhan modern dan rasa premium.</p>    
+      <p class="harga">Rp 5.000</p>
 
-  <p>👨‍🍳 Diproduksi secara higienis dengan bahan pilihan untuk menjaga kualitas dan kerenyahan.</p>    
+      <button onclick="pesanProduk('Rasa Balado')">
+        Pesan Sekarang
+      </button>
+    </div>
 
-  <h3>Keunggulan Produk</h3>  
-  <p>  
-  ✔ Renyah dan tidak alot<br>  
-  ✔ Dibuat fresh setiap hari<br>  
-  ✔ Tanpa bahan berbahaya<br>  
-  ✔ Rasa kekinian<br>  
-  ✔ Cocok untuk semua usia  
-  </p>    
 
-  <p>🚀 Camilan enak, sehat, dan bikin nagih!</p>  
-</section>  
+    <!-- PRODUK 2 -->
+    <div class="product-card">
+      <span class="badge new">NEW</span>
 
-<a class="wa-float" href="https://wa.me/6285768495689?text=Halo%20saya%20mau%20pesan">💬</a>
+      <img src="images/jagung.png" alt="Jagung">
 
-<footer>  
-  <p><b>ANSORI GROUP</b></p>  
-  <p>📍 Bandar Lampung</p>  
-  <p>🕒 09.00 - 17.00</p>  
-  <p>📱 085768495689</p>  
-</footer>  
+      <h3>JAGUNG MANIS 🌽</h3>
 
-</body>  
-  </html>
+      <div class="rating">
+        ⭐ 4.8 | 150+ terjual
+      </div>
+
+      <p class="harga">Rp 5.000</p>
+
+      <button onclick="pesanProduk('Rasa Jagung')">
+        Pesan Sekarang
+      </button>
+    </div>
+
+
+    <!-- PRODUK 3 -->
+    <div class="product-card">
+      <span class="badge">FAVORIT</span>
+
+      <img src="images/rumputlaut.png" alt="Rumput Laut">
+
+      <h3>RUMPUT LAUT 🌿</h3>
+
+      <div class="rating">
+        ⭐ 5.0 | 100+ terjual
+      </div>
+
+      <p class="harga">Rp 5.000</p>
+
+      <button onclick="pesanProduk('Rasa Rumput Laut')">
+        Pesan Sekarang
+      </button>
+    </div>
+
+      <!-- PRODUK 4 -->
+    <div class="product-card">
+      <span class="badge new">NEW</span>
+
+      <img src="images/barbeque.png" alt="Barbeque">
+
+      <h3>BARBEQUE 🍖</h3>
+
+      <div class="rating">
+        ⭐ 4.9 | 170+ terjual
+      </div>
+
+      <p class="harga">Rp 5.000</p>
+
+      <button onclick="pesanProduk('BARBEQUE')">
+        Pesan Sekarang
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- KEUNGGULAN -->
+<section class="testimoni">
+  <h2>Kenapa Pilih ANSORI GROUP?</h2>
+
+  <div class="testi-card">
+    <p>
+      ✅ Diproduksi higienis dan fresh setiap hari<br><br>
+      ✅ Menggunakan bahan pilihan berkualitas premium<br><br>
+      ✅ Tekstur super renyah dan tidak alot<br><br>
+      ✅ Bumbu melimpah dan rasa kekinian favorit pelanggan<br><br>
+      ✅ Cocok untuk santai, belajar, dan kumpul keluarga
+    </p>
+  </div>
+</section>
+
+
+<!-- TESTIMONI -->
+<section class="testimoni">
+  <h2>Testimoni Pelanggan</h2>
+
+  <div class="testi-card">
+    <p>
+      ⭐⭐⭐⭐⭐<br><br>
+      “Sweet potato chips ANSORI GROUP benar-benar renyah dan terasa premium. Bumbunya meresap, fresh, dan kualitas produknya asli sangat memuaskan!”
+    </p>
+
+    <h4>- Pelanggan Setia</h4>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <h3>ANSORI GROUP</h3>
+
+  <p>
+    Sweet potato chips premium dengan rasa modern, renyah, higienis, dan dibuat dari bahan pilihan terbaik 🔥
+  </p>
+
+  <div class="footer-icons">
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-tiktok"></i>
+  </div>
+
+  <small>
+    © 2025 ANSORI GROUP
+  </small>
+</footer>
+
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/6285768495689" class="wa-float">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+
+<!-- BOTTOM NAVIGATION -->
+<div class="bottom-nav">
+  <div>
+    <i class="fa-solid fa-house"></i>
+    <span>Home</span>
+  </div>
+
+  <div>
+    <i class="fa-solid fa-store"></i>
+    <span>Produk</span>
+  </div>
+
+  <div>
+    <i class="fa-solid fa-fire"></i>
+    <span>Promo</span>
+  </div>
+
+  <div>
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Chat</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
