@@ -368,12 +368,14 @@ footer{
 }
 
 .shipping .free{
-    background:#b8f5c5;
-    color:#0a8f3c;
-    padding:4px 10px;
-    border-radius:20px;
-    font-weight:bold;
-    box-shadow:0 2px 5px rgba(0,0,0,0.15);
+background:linear-gradient(135deg,#b8f5c5,#dfffd7);
+color:#0a8f3c;
+padding:5px 12px;
+border-radius:20px;
+font-weight:700;
+display:inline-block;
+box-shadow:0 3px 8px rgba(0,0,0,0.18);
+border:1px solid #8ee4a8;
 }
 
 .shipping .truck{
