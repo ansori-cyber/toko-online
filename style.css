@@ -358,12 +358,53 @@ footer{
     color:#555;
 }
 
-.shipping .free{
-    background:#e6f4ff;
-    color:#0095ff;
-    padding:3px 8px;
-    border-radius:6px;
+.shipping{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-top:8px;
+    font-size:12px;
     font-weight:bold;
+}
+
+.shipping .free{
+    background:#b8f5c5;
+    color:#0a8f3c;
+    padding:4px 10px;
+    border-radius:20px;
+    font-weight:bold;
+    box-shadow:0 2px 5px rgba(0,0,0,0.15);
+}
+
+.shipping .truck{
+    font-size:16px;
+}
+
+.stok-info{
+    margin-top:8px;
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+
+.stok-info span{
+    display:inline-block;
+    width:fit-content;
+    padding:4px 10px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.stok-info span:first-child{
+    background:#fff3b0;
+    color:#9a6b00;
+}
+
+.stok-info span:last-child{
+    background:#ffd6d6;
+    color:#c40000;
+}
 }
 
 .shipping .truck{
