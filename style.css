@@ -419,3 +419,28 @@ border:1px solid #8ee4a8;
     margin:auto;
     border-radius:20px;
 }
+/* VIDEO IKLAN */
+
+.video-iklan{
+  width:100%;
+  padding:20px 12px;
+  background:#f5f5f5;
+  display:flex;
+  justify-content:center;
+}
+
+.video-wrapper{
+  width:100%;
+  max-width:1000px;
+  overflow:hidden;
+  border-radius:22px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.18);
+  background:#000;
+}
+
+.video-wrapper video{
+  width:100%;
+  display:block;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
