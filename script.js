@@ -181,3 +181,27 @@ function checkoutWhatsApp(){
   window.open(url,'_blank');
 
 }
+function goBeranda(){
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+}
+
+function openPesanan(){
+document.getElementById("pesananPopup").style.display="flex";
+}
+
+function openVoucher(){
+document.getElementById("voucherPopup").style.display="flex";
+}
+
+function openBantuan(){
+document.getElementById("bantuanPopup").style.display="flex";
+}
+
+function closePopup(){
+document.getElementById("pesananPopup").style.display="none";
+document.getElementById("voucherPopup").style.display="none";
+document.getElementById("bantuanPopup").style.display="none";
+}
