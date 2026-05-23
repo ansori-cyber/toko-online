@@ -526,3 +526,42 @@ border:1px solid #8ee4a8;
 .card:hover img{
   transform:scale(1.03);
 }
+/* MENU TOKO */
+
+.menu-toko{
+display:flex;
+justify-content:space-between;
+gap:10px;
+padding:15px 10px;
+overflow-x:auto;
+}
+
+.menu-item{
+min-width:85px;
+background:white;
+border-radius:20px;
+padding:15px 10px;
+text-align:center;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+cursor:pointer;
+transition:0.3s;
+}
+
+.menu-item:hover{
+transform:translateY(-5px);
+}
+
+.menu-item.active{
+background:#16a34a;
+color:white;
+}
+
+.menu-icon{
+font-size:28px;
+margin-bottom:8px;
+}
+
+.menu-item span{
+font-size:14px;
+font-weight:bold;
+}
