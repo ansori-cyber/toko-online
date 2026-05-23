@@ -674,32 +674,7 @@ animation:fadeIn 0.4s ease;
 transform:translateY(-5px);
 }
 
-/* JUDUL CARD */
-.order-card h3,
-.voucher-card h3,
-.help-card h3{
-font-size:24px;
-font-weight:800;
-color:#111;
-margin-bottom:10px;
-}
 
-/* DESKRIPSI */
-.order-card p,
-.voucher-card p,
-.help-card p{
-font-size:16px;
-line-height:1.7;
-color:#555;
-}
-
-/* STIKER */
-.order-card::before{
-content:"🛒";
-font-size:26px;
-display:block;
-margin-bottom:10px;
-}
 
 .voucher-card::before{
 content:"🎁";
