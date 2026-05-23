@@ -187,21 +187,44 @@ top:0,
 behavior:"smooth"
 });
 }
+function closePopup() {
 
-function openPesanan(){
-document.getElementById("pesananPopup").style.display="flex";
+    document.getElementById("pesananPopup").style.display = "none";
+    document.getElementById("voucherPopup").style.display = "none";
+    document.getElementById("bantuanPopup").style.display = "none";
+
+    document.body.style.overflow = "auto";
 }
 
-function openVoucher(){
-document.getElementById("voucherPopup").style.display="flex";
+function openPesanan() {
+
+    closePopup();
+
+    document.getElementById("pesananPopup").style.display = "block";
+
+    window.scrollTo(0, 0);
+
+    document.body.style.overflow = "hidden";
 }
 
-function openBantuan(){
-document.getElementById("bantuanPopup").style.display="flex";
+function openVoucher() {
+
+    closePopup();
+
+    document.getElementById("voucherPopup").style.display = "block";
+
+    window.scrollTo(0, 0);
+
+    document.body.style.overflow = "hidden";
 }
 
-function closePopup(){
-document.getElementById("pesananPopup").style.display="none";
-document.getElementById("voucherPopup").style.display="none";
-document.getElementById("bantuanPopup").style.display="none";
+function openBantuan() {
+
+    closePopup();
+
+    document.getElementById("bantuanPopup").style.display = "block";
+
+    window.scrollTo(0, 0);
+
+    document.body.style.overflow = "hidden";
 }
