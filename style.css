@@ -622,3 +622,14 @@ position:relative;
 max-height:80vh;
 overflow:auto;
 }
+.popup-content{
+background:white;
+width:100%;
+max-width:400px;
+border-radius:20px;
+padding:20px;
+position:relative;
+max-height:80vh;
+overflow:auto;
+z-index:10000;
+}
